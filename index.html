@@ -9,9 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=5.0">
 </head>
 <body>
+
+  <input type="checkbox" id="theme-toggle" hidden aria-label="Toggle dark mode"> 
 
  <header class="header">
   <div class="person-name">Vikas N</div>
@@ -20,8 +22,13 @@
   <a href="#about">About</a>
   <a href="#education">Education</a>
   <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#achievements">Achievements</a>
   <a href="#contact">Contact</a>
   </div>
+  <label for="theme-toggle" class="theme-btn" title="Toggle theme">
+        <span class="theme-light">LIGHT</span> / <span class="theme-dark">DARK</span>
+      </label>
  </header>
  <hr>
 
@@ -139,5 +146,12 @@
  </section>
  <hr class="hr">
 
+ <!-- Note for teacher -->
+ <section class="coming-soon-section" id="contact">
+  <div class="coming-soon-box">
+    <p><strong>Note:</strong> Light &amp; Dark mode, Achievements section, and Contact section are currently work-in-progress and coming soon tomorrow.</p>
+  </div>
+ </section>
+ <hr class="hr">
 </body>
 </html>

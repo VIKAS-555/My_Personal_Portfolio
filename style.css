@@ -26,14 +26,21 @@ a:hover{
   font-size:larger;
   font-weight: 700;
 }
+label{
+  border:1px solid black;
+  font-size:small
+  
+}
 .student-portfolio{
   display:flex;
   justify-content:space-around;
   margin:42px;
+  
 }
 .right-con{
   padding:28px 12px;
   width:50%;
+  
 }
 .left-con{
   align-self:center;
@@ -74,6 +81,7 @@ a:hover{
 .shorter-des{
   font-weight: 520;
   font-size:1.0rem;
+
 }
 .short-des{
   font-size:0.9rem;
@@ -207,4 +215,21 @@ a:hover{
 }
 .skills-box .skill-item .skill-label{
   background-color: #F0EAE1;
+}
+
+/* Note for teacher */
+.coming-soon-section {
+  margin: 30px 70px 50px 70px;
+}
+
+.coming-soon-box {
+  background-color: #F0EAE1;
+  border: 1px dashed #55504A;
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  color: #121212;
+}
+
+.coming-soon-box p {
+  background-color: transparent;
 }
