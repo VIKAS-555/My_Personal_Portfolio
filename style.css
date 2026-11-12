@@ -1,0 +1,31 @@
+*{
+background-color: #FAF7F0;
+}
+
+.header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:20px;
+  position:sticky;
+}
+.nav-links a{
+   text-decoration: none;
+   color: black;
+   font-size:0.9rem;
+   font-weight: 600;
+}
+a:hover{
+  color:brown
+}
+.nav-links{
+  display:flex;
+  gap:22px;
+}
+.person-name{
+  font-size:larger;
+  font-weight: 700;
+}
+.hr{
+  width:800px
+}
