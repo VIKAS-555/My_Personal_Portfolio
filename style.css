@@ -26,6 +26,137 @@ a:hover{
   font-size:larger;
   font-weight: 700;
 }
+.student-portfolio{
+  display:flex;
+  justify-content:space-around;
+  margin:42px;
+}
+.right-con{
+  padding:28px 12px;
+  width:50%;
+}
+.left-con{
+  align-self:center;
+  border:1px solid #D8D0C5;
+  padding:20px 24px;
+  text-align: center;
+  background-color: #F0EAE1;
+}
+
+.left-con p {
+  background-color: transparent;
+  line-height: 1.4;
+  margin-top: 6px;
+  font-size: 0.88rem;
+}
+.avatar-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #C85A17; 
+  color: #FFFFFF;            
+  font-size: 1.4rem;        
+  font-weight: 700;          
+  display: flex;
+  align-items: center;       
+  justify-content: center;   
+  margin: 0 auto;
+}
+.line-header{
+  font-size:0.8rem;
+  font-weight: 500;
+  line-height: 0%;
+}
+.my-name{
+  font-size:xx-large;
+  line-height:12px;
+}
+.shorter-des{
+  font-weight: 520;
+  font-size:1.0rem;
+}
+.short-des{
+  font-size:0.9rem;
+  line-height:19px;
+}
+.view-projects{
+  background-color: #C85A17;
+  color:#FFFFFF;
+  padding:7px;
+  border: 1px solid #C85A17;
+}
+.contact-me{
+  padding:7px;
+}
 .hr{
   width:800px
+}
+.about-me{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin:30px 70px;
+}
+.box-dedo{
+  background-color: #F0EAE1;
+  border: 1px solid #D8D0C5;
+  padding: 18px 22px; 
+}
+
+.box-dedo * {
+  background-color: transparent;
+}
+
+.box-dedo p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #121212;
+}
+
+.box-dedo p:last-child {
+  margin-bottom: 0;
+}
+
+.education-section{
+  display:flex;
+  flex-direction: column;
+  margin:30px 70px;
+  gap: 16px;
+}
+
+.edu-box{
+  background-color: #F0EAE1;
+  border: 1px solid #D8D0C5;
+  padding: 18px 22px;
+}
+
+.edu-box * {
+  background-color: transparent;
+}
+
+.edu-date{
+  color: #C85A17;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.edu-title{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 4px 0;
+  color: #121212;
+}
+
+.edu-school{
+  color: #55504A;
+  font-size: 0.88rem;
+  margin-bottom: 10px;
+}
+
+.edu-desc{
+  font-size: 0.92rem;
+  color: #121212;
+  line-height: 1.5;
 }
